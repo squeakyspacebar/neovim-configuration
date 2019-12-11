@@ -50,6 +50,9 @@ Plugin 'https://github.com/vim-scripts/mru.vim'
 Plugin 'https://github.com/plasticboy/vim-markdown'
 Plugin 'https://github.com/yuttie/comfortable-motion.vim'
 
+" Code completion.
+Plugin 'Valloric/YouCompleteMe'
+
 " JavaScript syntax highlighting.
 Plugin 'https://github.com/pangloss/vim-javascript'
 
