@@ -155,7 +155,7 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['eslint', 'prettier']
+\   'javascript': ['prettier']
 \}
 
 nmap <silent> <leader>a <Plug>(ale_next_wrap)
