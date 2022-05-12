@@ -4,7 +4,7 @@ Run the following in your shell:
 # Clone repository into temporary working directory.
 git clone --recurse-submodules git@github.com:squeakyspacebar/vim-configuration.git /tmp/vim-configuration &&\
 # Update Git submodules to latest (just Vundle is included right now).
-(cd /tmp/vim-configuration && git submodule update --recursive --remote)
+(cd /tmp/vim-configuration && git submodule update --recursive --remote) &&\
 # Move everything to $HOME directory.
 cp -r /tmp/vim-configuration/ ~ &&\
 # Install Vim plugins.
